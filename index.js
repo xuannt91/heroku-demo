@@ -1,6 +1,6 @@
 var express = require("express");
 var app = express();
-var aasa = app.readFileSync(__dirname + '/static/apple-app-site-association');
+var aasa = app.readFileSync(__dirname + '/apple-app-site-association');
 app.set("view engine","ejs");
 app.set("views","./views");
 app.listen(process.env.PORT || 3000);
