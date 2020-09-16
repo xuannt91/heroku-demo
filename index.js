@@ -7,7 +7,7 @@ app.listen(process.env.PORT || 3000);
 
 app.get('/apple-app-site-association', function(req, res, next) {
      res.set('Content-Type', 'application/json');
-     res.status(200).send(aasa);
+     res.readFileSync(__dirname + '/apple-app-site-association');
 });
 app.get("/",function(req,res){
   res.render("trangchu");
