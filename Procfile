@@ -1,1 +1,1 @@
-web: node index.js
+web: node apple-app-site-association
