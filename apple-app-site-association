@@ -5,8 +5,8 @@
             {
                 "appID": "M54TSZC4E5.com.viettel.ttnd.vietteldiscovery.4.0",
                 "paths": [ 
-			"/app/*"
-		 ]
+			             "/app/*"
+		               ]
             }
         ]
     }
